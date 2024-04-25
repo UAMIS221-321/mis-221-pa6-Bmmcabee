@@ -28,8 +28,8 @@ function putBook(id){
         title: document.getElementById("bookTitle").value,
         author: document.getElementById("bookAuthor").value,
         genre: document.getElementById("bookGenre").value,
-        numAvlb: parseInt(document.getElementById("bookAvlb").value),
-        isbn: document.getElementById("bookIsbn").value,
+        numAvlb: parseInt(document.getElementById("bookAvailable").value),
+        isbn: document.getElementById("bookISBN").value,
         length: parseInt(document.getElementById("bookLength").value),
         cover: document.getElementById("bookCover").value
     }
@@ -54,8 +54,8 @@ function postBook(){
         title: document.getElementById("bookTitle").value,
         author: document.getElementById("bookAuthor").value,
         genre: document.getElementById("bookGenre").value,
-        numAvlb: parseInt(document.getElementById("bookAvlb").value),
-        isbn: document.getElementById("bookIsbn").value,
+        numAvlb: parseInt(document.getElementById("bookAvailable").value),
+        isbn: document.getElementById("bookISBN").value,
         length: parseInt(document.getElementById("bookLength").value),
         cover: document.getElementById("bookCover").value
     }
